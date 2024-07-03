@@ -1,0 +1,123 @@
+.Headerlan {
+    float: right;
+}
+
+.body-form {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.buttom-back {
+    margin-bottom: 2%;
+}
+
+.row-buttom{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: #ffa200;
+    border-radius: 50%
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background: #ffa200;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red ;
+}
+
+#triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid red ;
+    border-bottom: 50px solid transparent;
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid red;
+    border-bottom: 50px solid transparent;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+}
+
+#parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: #ffa200;
+    margin-left: 14px;
+}
+
+#cone {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 100px solid #ffa200;
+    border-radius: 50%;
+}
+
+#rectangle {
+    width: 200px;
+    height: 100px;
+    background: #6eda78;
+}
+
+#oval {
+    width: 200px;
+    height: 100px;
+    background: #6eda78;
+    border-radius: 100px / 50px;
+}
+
+#trapezoid {
+    border-bottom: 100px solid #6eda78;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+}
+
+.background-buttom {
+    padding: 5px;
+    background-color: darkgray;
+    border-radius: 5%;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.background-buttom-sh {
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 5%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+:where(.css-dev-only-do-not-override-f7vrd6).ant-layout-footer {
+    height: 90vh;
+}
